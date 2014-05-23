@@ -52,53 +52,51 @@ taginfo:
         Usa datos de:
     data_from_description: Última actualización de la base de datos
     instance:
-        title: About this taginfo site
+        title: Acerca de este sitio taginfo
         other: See the <a href="http://wiki.openstreetmap.org/wiki/Taginfo/Sites">OSM wiki</a> for other sites.
 
 misc:
     values_less_than_one_percent: no values with more than 1%
-    empty_string: empty string
+    empty_string: cadena vacía
     unknown: unknown
-    count: Count
-    image: Image
-    no_image: no image
-    all: All
-    object_type: Type
-    description: Description
-    help: Help
-    length: Length
-    icon: Icon
-    line: Line
-    area: Area
-    language: Language
-    search_for: Search for
-    objects_tooltip: Number of objects (as absolute value and as percentage of all nodes, ways, and relations).
-    nodes_tooltip: Number of nodes (as absolute value and as percentage of tagged nodes, ie. nodes without any tags are ignored).
-    ways_tooltip: Number of ways (as absolute value and as percentage of all ways).
-    relations_tooltip: Number of relations (as absolute value and as percentage of all relations).
-    values_tooltip: Number of different values for this key.
-    users_tooltip: Number of distinct users who last changed objects with this key.
-    prevalent_values: Prevalent values
-    prevalent_values_tooltip: Up to ten of the most common values for this key (only if more than 1% of tags with this key have this value).
-    in_wiki_tooltip: Has at least one wiki page.
-    in_josm_tooltip: Key appears in JOSM config.
+    count: Cantidad
+    image: Imagen
+    no_image: sin imagen
+    all: Todo
+    object_type: Tipo
+    description: Descripción
+    help: Ayuda
+    length: Length/Largo
+    icon: Ícono
+    line: Línea
+    area: Área
+    language: Idioma
+    search_for: Buscar por
+    objects_tooltip: Número de objetos (como valor absoluto y como porcentaje de todos los nodos, vías, y relaciones).
+    nodes_tooltip: Número de nodos (como valor absoluto y como porcentaje de nodos etiquetados, ej. los nodos sin ninguna etiqueta son ignorados).
+    ways_tooltip: Número de vías (como valor absoluto y como porcentaje de todas las vías).
+    relations_tooltip: Número de relaciones (como valor absoluto y como porcentaje de todas las relaciones).
+    values_tooltip: Cantidad de valores distintos para esta clave.
+    users_tooltip: Cantidad de distintos usuarios últimos en modificar objetos con esta clave.
+    prevalent_values: Valores prevalentes
+    prevalent_values_tooltip: Hasta 10 de los valores mas comunes para esta key (solo si mas del 1% de etiquetas con esta clave tiene este valor)
+    in_wiki_tooltip: Tiene al menos una página en el Wiki
+    in_josm_tooltip: La clave aparece en la configuración de JOSM.
 
 help:
     search:
-        title: Search
-        intro: Use the search box in the upper right corner to search for tag keys and values.
-        string: You can search for tag keys and values
-        substring: Just part of the key/value also works
-        complete_tags: You can search for complete tags
-        values_only: You can also search for tag values only
+        title: Buscar
+        intro: User la caja de búsqueda que está arriba a la derecha para buscar etiquetas, claves y valores.
+        string: Puedes buscar por la clave y el valor de las etiquetas.
+        substring: Puedes buscar con parte de la clave/valor. Ej. el término <i>ldings</i> encontrará <i>buildings</i>
+        complete_tags: Puedes buscar por etiquetas completas. Ej.: <i>building=yes</i>
+        values_only: También se puede buscar sólo por el valor
         suggestions: |
-            For your convenience popular keys and tags will be suggested
-            while you type. Use your cursor keys to choose one and hit
-            <span class="key">Enter</span>.
-            You will jump directly to that key or tag page.
+            Para tu comodidad, al tipear el término de búsqueda te serán sugeridas etiquetas populares. Usa las flechas para elegir y presiona <span class="key">Enter</span>.
+            Irás directamente a la página descriptiva de la clave o etiqueta.
     keyboard:
-        title: Keyboard shortcuts
-        site_navigation: Site navigation
+        title: Atajos de teclado
+        site_navigation: Navegación del sitio
         page_navigation: Page navigation
         table_navigation: Table navigation
         keys:
@@ -578,7 +576,7 @@ reports:
                 <a href="http://en.wikipedia.org/wiki/IETF_language_tag">Wikipedia
                 entry on IETF language tags</a> and the <a
                 href="http://www.langtag.net/">langtag.net</a> site.</p>
-                <p>Note that the data shown in this table is <b>not</b> from OpenStreetMap,
+                <p>Los datos que figuran en esta table <b>no</b> son de OpenStreetMap,
                 it just shows the building blocks that can be used to describe languages
                 irrespective of whether they are actually used in OSM.
                 </p>
